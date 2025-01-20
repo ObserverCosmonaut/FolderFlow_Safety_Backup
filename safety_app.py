@@ -243,7 +243,7 @@ def main():
                             "sources": response["sources"]
                         })
     else:
-        st.info("👋 Hi, Welcome to our Prototype FolderFlow - More than just 'search'.\n"
+        st.info("👋 Hi, Welcome to our Prototype FolderFlow - More than just 'search' \n"
                 "Prepared by Dibyanshu and Sajjad - Happy Exploring!\n\n"
                 "Kindly follow these steps to begin:\n"
                 "1. Enter your Google API key in the sidebar\n"
