@@ -163,7 +163,7 @@ def initialize_session_state():
 
 def main():
     st.set_page_config(page_title="Document QA Assistant", page_icon="📚")
-    st.title("FolderFlow for HILTI Technologies 🤖")
+    st.title("FolderFlow for HILTI Technologies")
 
     initialize_session_state()
 
