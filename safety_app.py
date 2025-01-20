@@ -163,7 +163,8 @@ def initialize_session_state():
 
 def main():
     st.set_page_config(page_title="Document QA Assistant", page_icon="📚")
-    st.title("FolderFlow for HILTI Technologies")
+    #st.title("FolderFlow for HILTI Technologies")
+    st.markdown("<h1>FolderFlow for <span style='color: red;'>HILTI</span> Technologies</h1>", unsafe_allow_html=True)
 
     initialize_session_state()
 
