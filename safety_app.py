@@ -243,7 +243,8 @@ def main():
                             "sources": response["sources"]
                         })
     else:
-        st.info("👋 Welcome! Please follow these steps to begin:\n\n"
+        st.info("👋 Hi, Welcome to our Prototype FolderFlow - More than just 'search'. Kindly follow these steps to begin:\n\n"
+                "Prepared by Dibyanshu and Sajjad - Happy Exploring!\n"
                 "1. Enter your Google API key in the sidebar\n"
                 "2. Upload your documents\n"
                 "3. Click 'Process Documents' to start")
