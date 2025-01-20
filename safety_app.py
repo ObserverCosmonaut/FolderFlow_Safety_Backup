@@ -162,7 +162,7 @@ def initialize_session_state():
         st.session_state.api_key = os.getenv('GOOGLE_API_KEY', '')
 
 def main():
-    st.set_page_config(page_title="Document QA Assistant", page_icon="📚")
+    st.set_page_config(page_title="FolderFlow QA Assistant", page_icon="📚")
     #st.title("FolderFlow for HILTI Technologies")
     #st.markdown("<h1>FolderFlow for <span style='color: red;'>HILTI</span> Technologies</h1>", unsafe_allow_html=True)
     st.markdown("<h1>FolderFlow for <span style='color: #D00F22; font-weight: bold; font-size: 50px;'>HILTI</span> Technologies</h1>", unsafe_allow_html=True)
@@ -243,7 +243,7 @@ def main():
                             "sources": response["sources"]
                         })
     else:
-        st.info("👋 Hi, Welcome to our Prototype FolderFlow - More than just 'search' \n\n"
+        st.info("👋 Hi, Welcome to our prototype FolderFlow - More than just 'search' \n\n"
                 "Prepared by Dibyanshu and Sajjad - Happy Exploring!\n\n"
                 "Kindly follow these steps to begin:\n"
                 "1. Enter your Google API key in the sidebar\n"
