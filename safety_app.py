@@ -164,8 +164,9 @@ def initialize_session_state():
 def main():
     st.set_page_config(page_title="Document QA Assistant", page_icon="📚")
     #st.title("FolderFlow for HILTI Technologies")
-    st.markdown("<h1>FolderFlow for <span style='color: red;'>HILTI</span> Technologies</h1>", unsafe_allow_html=True)
-
+    #st.markdown("<h1>FolderFlow for <span style='color: red;'>HILTI</span> Technologies</h1>", unsafe_allow_html=True)
+    st.markdown("<h1>FolderFlow for <span style='color: #D00F22; font-weight: bold; font-size: 50px;'>HILTI</span> Technologies</h1>", unsafe_allow_html=True)
+    
     initialize_session_state()
 
     # API key input in sidebar with persistence
